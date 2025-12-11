@@ -1,0 +1,37 @@
+body {
+    background-color: black; 
+    color: white; 
+    border: 5px solid orange; 
+}
+
+#wrapper {
+    max-width: 900px; /* Stop the content from getting too wide */
+    margin: 0 auto; /* This centers the content block horizontally */
+    background-color: #333333; /* A slightly lighter gray/black inside the content area */
+}
+
+nav ul {
+    display: flex;
+    padding: 15px;
+    background-color: darkred;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
