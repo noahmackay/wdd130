@@ -1,5 +1,3 @@
-
-/*Boring stuff*/
 body {
     background-color: #a9a9a9;
     height: 900px;
@@ -87,4 +85,45 @@ footer {
     color: #ccc;
     border-top: 3px solid #00796b;
     margin-top: 100px; 
+}
+
+.is-report main { 
+    background-color: white; 
+    padding: 20px; 
+    border-radius: 4px; 
+}
+
+.is-report main h1 {
+    color: #3b3b3b;
+    border-bottom: 1px solid #a9a9a9;
+    padding-bottom: 5px;
+    font-size: 2em;
+}
+
+.is-report .report-section h2 {
+    color: #00796b;
+    margin-top: 25px; 
+    padding-bottom: 3px;
+    border-bottom: 1px solid #00796b;
+    font-size: 1.4em; 
+}
+
+.is-report .report-section p strong {
+    display: block;
+    color: #3b3b3b;
+    margin-top: 10px; 
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+
+.is-report .report-section p {
+    line-height: 1.5;
+    margin-bottom: 8px;
+    color: #555;
+    padding-left: 10px;
+}
+
+.is-report .report-section a {
+    color: #00796b;
+    text-decoration: underline;
 }
