@@ -1,37 +1,90 @@
+
+/*Boring stuff*/
 body {
-    background-color: black; 
-    color: white; 
-    border: 5px solid orange; 
+    background-color: #a9a9a9;
+    height: 900px;
+    
 }
-
-#wrapper {
-    max-width: 900px; /* Stop the content from getting too wide */
-    margin: 0 auto; /* This centers the content block horizontally */
-    background-color: #333333; /* A slightly lighter gray/black inside the content area */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
-
-nav ul {
+header {
+    background-color: #3b3b3b;
+    padding: 15px 0;
+    border-bottom: 3px solid #00796b;
     display: flex;
-    padding: 15px;
-    background-color: darkred;
+    justify-content: center;
+}
+.header-content {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+.logo {
+    float: left;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.logo img{
+    border-radius: 15px; 
+    object-fit: cover; 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.logo h1 {
+    color: white;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+.welcome {
+    padding-bottom: 40px;
+    color: #3b3b3b;
+}
+.welcome h2 {
+    color: #00796b;
+}
+.project-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px;
+}
+.project-card {
+    background-color: #3b3b3b;
+    color: white;
+    padding: 25px;
+    border-radius: 12px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.btn, .btn-learn {
+    display: inline-block;
+    background-color: #00796b;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+footer {
+    background-color: #3b3b3b;
+    padding: 15px 0;
+    text-align: center;
+    color: #ccc;
+    border-top: 3px solid #00796b;
+    margin-top: 100px; 
+}
